@@ -95,12 +95,12 @@ const config = {
           {
             position: 'left',
             to: '/frontend',
-            label: 'Frontend',
+            label: 'Front End',
           },
           {
             position: 'left',
             to: '/backend',
-            label: 'Backend',
+            label: 'Back End',
           },
           {
             href: 'https://github.com/Axiotes/dojo-system',
