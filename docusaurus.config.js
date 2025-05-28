@@ -81,21 +81,29 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Dojo System',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            to: '/overview',
+            label: 'Visão Geral',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            position: 'left',
+            to: '/frontend',
+            label: 'Frontend',
+          },
+          {
+            position: 'left',
+            to: '/backend',
+            label: 'Backend',
+          },
+          {
+            href: 'https://github.com/Axiotes/dojo-system',
             label: 'GitHub',
             position: 'right',
           },
@@ -144,7 +152,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Dojo System, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
