@@ -15,3 +15,4 @@ Diagrama da Visão Geral
 ![Diagrama da visão geral](./assets/overview-diagram.jpg)
 
 ## [Partes Interessadas](../about/stakeholders/)
+## [Requisitos](../about/requirements/)
