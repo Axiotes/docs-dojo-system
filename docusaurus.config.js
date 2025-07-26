@@ -89,8 +89,8 @@ const config = {
         items: [
           {
             position: 'left',
-            to: '/overview',
-            label: 'Visão Geral',
+            to: '/about',
+            label: 'Sobre',
           },
           {
             position: 'left',
