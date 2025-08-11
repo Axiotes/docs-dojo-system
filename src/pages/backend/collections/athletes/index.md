@@ -7,7 +7,7 @@ Armazena os dados dos atletas matriculados na academia, incluindo informações 
 
 ## Estrutura dos Campos
 
-| Campo           | Tipo de Dado                         | Obrigatório | Padrão/Valor Inicial | Descrição                                                                            |
+| Campo           | Tipo de Dado                         | Obrigatório | Valor Padrão | Descrição                                                                            |
 | --------------- | ------------------------------------ | ----------- | -------------------- | ------------------------------------------------------------------------------------ |
 | `_id`           | ObjectId                             | Sim         | Gerado pelo MongoDB  | Identificador único do atleta                                                        |
 | `name`          | String                               | Sim         | —                    | Nome completo do atleta                                                              |
