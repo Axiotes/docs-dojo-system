@@ -22,3 +22,6 @@ Armazena as informações das turmas oferecidas pela academia, incluindo a modal
 
 ## [`visits`](../../backend/collections/visits/)
 Armazena informações sobre visitantes da academia que não são atletas matriculados, incluindo seus dados pessoais, responsáveis (quando aplicável), quantidade de visitas permitidas e status de atividade.
+
+## [`payments`](../../backend/collections/payments/)
+Registra os pagamentos realizados pelos atletas, incluindo o modo de pagamento, a data do pagamento, o atleta associado e o plano adquirido.

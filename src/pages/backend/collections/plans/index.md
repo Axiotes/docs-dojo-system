@@ -29,6 +29,11 @@ Armazena os planos disponíveis na academia, definindo período, quantidade de p
 - **Campo de referência:** `plan` em `athletes`
 - **Função:** Identifica quais atletas estão inscritos no plano.
 
+### [Payments](../../../backend/collections/payments)
+- **Tipo:** 1\:N (um plano pode estar associado a vários pagamentos)
+- **Campo de referência:** `plan` em `payments`
+- **Função:** Registra os pagamentos realizados referentes a esse plano.
+
 ## Índices
 
 | Campo                          | Tipo de Índice | Único? | Descrição                            |
