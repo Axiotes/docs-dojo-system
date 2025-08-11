@@ -7,3 +7,6 @@ Armazena os dados dos administradores da academia que possuem acesso ao sistema.
 
 ## [`modalities`](../../backend/collections/modalities/)
 Armazena as modalidades oferecidas pela academia, incluindo informações como nome, descrição, imagem ilustrativa e status de ativação.
+
+## [`plans`](../../backend/collections/plans/)
+Armazena os planos disponíveis na academia, definindo período, quantidade de períodos, valor, modalidade associada e status. Cada plano está vinculado a uma modalidade e pode ser associado a vários atletas.

@@ -7,7 +7,7 @@ Armazena as modalidades oferecidas pela academia, incluindo informações como n
 
 ## Estrutura dos Campos
 
-| Campo         | Tipo de Dado | Obrigatório | Padrão/Valor Inicial | Descrição                                                                               |
+| Campo         | Tipo de Dado | Obrigatório | Valor Padrão | Descrição                                                                               |
 | ------------- | ------------ | ----------- | -------------------- | --------------------------------------------------------------------------------------- |
 | `_id`         | ObjectId     | Sim         | Gerado pelo MongoDB  | Identificador único da modalidade                                                       |
 | `name`        | String       | Sim         | —                    | Nome da modalidade (ex.: "Jiu-Jitsu", "Muay Thai")                                      |
