@@ -10,3 +10,6 @@ Armazena as modalidades oferecidas pela academia, incluindo informações como n
 
 ## [`plans`](../../backend/collections/plans/)
 Armazena os planos disponíveis na academia, definindo período, quantidade de períodos, valor, modalidade associada e status. Cada plano está vinculado a uma modalidade e pode ser associado a vários atletas.
+
+## [`teachers`](../../backend/collections/teachers/)
+Armazena os dados dos professores da academia, incluindo informações pessoais, contatos, valor da hora/aula, modalidades que ministram e status ativo/inativo.
