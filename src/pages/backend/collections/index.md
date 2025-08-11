@@ -13,3 +13,6 @@ Armazena os planos disponíveis na academia, definindo período, quantidade de p
 
 ## [`teachers`](../../backend/collections/teachers/)
 Armazena os dados dos professores da academia, incluindo informações pessoais, contatos, valor da hora/aula, modalidades que ministram e status ativo/inativo.
+
+## [`athletes`](../../backend/collections/athletes/)
+Armazena os dados dos atletas matriculados na academia, incluindo informações pessoais, responsáveis legais (quando aplicável), métodos de pagamento, plano contratado e status de atividade.
