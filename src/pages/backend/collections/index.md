@@ -16,3 +16,6 @@ Armazena os dados dos professores da academia, incluindo informações pessoais,
 
 ## [`athletes`](../../backend/collections/athletes/)
 Armazena os dados dos atletas matriculados na academia, incluindo informações pessoais, responsáveis legais (quando aplicável), métodos de pagamento, plano contratado e status de atividade.
+
+## [`classes`](../../backend/collections/classes/)
+Armazena as informações das turmas oferecidas pela academia, incluindo a modalidade, professor responsável, horário, faixa etária indicada, limite máximo de alunos, dias da semana em que a turma ocorre, imagem representativa e status da turma.
