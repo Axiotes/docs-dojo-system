@@ -20,6 +20,8 @@ Armazena os dados dos atletas matriculados na academia, incluindo informações 
 ## [`classes`](../../backend/collections/classes/)
 Armazena as informações das turmas oferecidas pela academia, incluindo a modalidade, professor responsável, horário, faixa etária indicada, limite máximo de alunos, dias da semana em que a turma ocorre, imagem representativa e status da turma.
 
+## [`classes-history`](../../backend/collections/classes-history/)
+
 ## [`visits`](../../backend/collections/visits/)
 Armazena informações sobre visitantes da academia que não são atletas matriculados, incluindo seus dados pessoais, responsáveis (quando aplicável), quantidade de visitas permitidas e status de atividade.
 
