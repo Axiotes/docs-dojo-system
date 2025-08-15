@@ -19,3 +19,6 @@ Este endpoint permite que **administradores autenticados** inativem um administr
 
 ## [Reativar administrador](../../../backend/modules/admin/reactive-admin/)
 Este endpoint permite que **administradores autenticados** reativem um administrador do sistema com base no seu ID. Um administrador reativado volta a poder realizar login e acessar endpoints protegidos.
+
+## [Atualizar dados do administrador](../../../backend/modules/admin/update-admin/)
+Este endpoint permite que um **administrador autenticado** atualize seus dados no sistema.
