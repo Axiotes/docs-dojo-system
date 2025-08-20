@@ -6,7 +6,7 @@ Este endpoint permite que **administradores autenticados** inativem um administr
 
 ## Método HTTP
 
-`GET`
+`PATCH`
 
 ## URL
 
