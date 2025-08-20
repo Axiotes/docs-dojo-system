@@ -10,3 +10,6 @@ Este endpoint permite que **qualquer usuário**, sem necessidade de autenticaç�
 
 ## [Buscar modalidades](../../../backend/modules/modalities/find-all-modalities/)
 Este endpoint permite que **qualquer usuário**, sem necessidade de autenticação, busque as modalidades cadastradas na academia. Suporta **paginação** e **filtro por status**.
+
+## [Editar modalidade](../../../backend/modules/modalities/update-modality/)
+Este endpoint permite que **administradores autenticados** com `role` **admin** editem os dados de uma modalidade já cadastrada. A edição pode ser **parcial ou total**, permitindo atualizar apenas nome, descrição ou imagem.
