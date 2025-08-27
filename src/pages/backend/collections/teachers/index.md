@@ -13,7 +13,7 @@ Armazena os dados dos professores da academia, incluindo informações pessoais,
 | `name`       | String                                        | Sim                      | —                    | Nome completo do professor                                                  |
 | `cpf`        | String (11 caracteres, único)                 | Sim                      | —                    | CPF do professor, deve ser único e ter exatamente 11 caracteres             |
 | `email`      | String (único, formato email válido)          | Sim                      | —                    | Endereço de e-mail único e válido                                           |
-| `photo`      | String                                        | Sim                      | —                    | URL, base 64 ou caminho da foto do professor                                         |
+| `image`      | Buffer                                        | Sim                      | —                    | Arquivo da imagem ilustrativa da turma armazenado em formato binário (Buffer)                                         |
 | `hourPrice`  | Number                                        | Sim                      | —                    | Valor cobrado por hora/aula, formato numérico                               |
 | `modalities` | Array de ObjectId (referência a `modalities`) | Sim (validação mínimo 1) | —                    | Lista das modalidades que o professor está habilitado a ministrar           |
 | `status`     | Boolean                                       | Sim                      | `true`               | Indica se o professor está ativo (`true`) ou inativo (`false`)              |
@@ -42,7 +42,7 @@ Armazena os dados dos professores da academia, incluindo informações pessoais,
   "name": "Carlos Eduardo",
   "cpf": "12345678901",
   "email": "carlos.eduardo@example.com",
-  "photo": "https://exemplo.com/fotos/carlos.jpg",
+  "image": "https://exemplo.com/fotos/carlos.jpg",
   "hourPrice": 70.0,
   "modalities": [
     "64cfa26e15e4c2a9a1f0b789",
