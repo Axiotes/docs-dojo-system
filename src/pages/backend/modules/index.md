@@ -10,3 +10,6 @@ O módulo `modalities` é responsável pelo gerenciamento das modalidades da aca
 
 ## [`plans`](../../backend/modules/plans/)
 O módulo `plans` é responsável pelo gerenciamento dos planos oferecidos pela academia. Ele concentra as funcionalidades de criação, consulta, inativação e atualização de planos, possibilitando que administradores organizem e mantenham as opções disponíveis para os alunos. Além disso, o módulo serve como base para os pagamentos e cadastro dos alunos em turmas.
+
+## [`teachers`](../../backend/modules/teachers/)
+O módulo `teachers` é responsável pelo gerenciamento dos professores da academia. Ele concentra as funcionalidades de criação, consulta, atualização e inativação de professores, possibilitando que administradores tenham controle sobre o corpo docente. Além disso, o módulo serve como base para a organização de aulas e turmas, garantindo uma gestão eficiente da equipe de professores dentro do sistema.
