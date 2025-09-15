@@ -13,3 +13,9 @@ Este endpoint permite que **administradores autenticados** com `role` **admin** 
 
 ## [Atualizar professor](../../../backend/modules/teachers/update-teacher/)
 Este endpoint permite que **administradores autenticados** com `role` **admin** atualizem parcialmente ou totalmente os dados de um professor já cadastrado na academia. O sistema realiza validações de CPF, e-mail, modalidades ativas e compatibilidade com turmas em andamento.
+
+## [Desativar professor](../../../backend/modules/teachers/deactivate/)
+Este endpoint permite que **administradores autenticados** com `role` **admin** desativem um professor na academia, tornando-o indisponível para vinculação em turmas e demais funcionalidades do sistema.
+
+## [Reativar professor](../../../backend/modules/teachers/reactivate/)
+Este endpoint permite que **administradores autenticados** com `role` **admin** reativem um professor previamente inativado, tornando-o disponível para vinculação em turmas e demais funcionalidades do sistema.
