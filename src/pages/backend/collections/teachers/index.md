@@ -7,18 +7,20 @@ Armazena os dados dos professores da academia, incluindo informações pessoais,
 
 ## Estrutura dos Campos
 
-| Campo        | Tipo de Dado                                  | Obrigatório              | Valor Padrão | Descrição                                                                   |
-| ------------ | --------------------------------------------- | ------------------------ | -------------------- | --------------------------------------------------------------------------- |
-| `_id`        | ObjectId                                      | Sim                      | Gerado pelo MongoDB  | Identificador único do professor                                            |
-| `name`       | String                                        | Sim                      | —                    | Nome completo do professor                                                  |
-| `cpf`        | String (11 caracteres, único)                 | Sim                      | —                    | CPF do professor, deve ser único e ter exatamente 11 caracteres             |
-| `email`      | String (único, formato email válido)          | Sim                      | —                    | Endereço de e-mail único e válido                                           |
-| `image`      | Buffer                                        | Sim                      | —                    | Arquivo da imagem ilustrativa da turma armazenado em formato binário (Buffer)                                         |
-| `hourPrice`  | Number                                        | Sim                      | —                    | Valor cobrado por hora/aula, formato numérico                               |
-| `modalities` | Array de ObjectId (referência a `modalities`) | Sim (validação mínimo 1) | —                    | Lista das modalidades que o professor está habilitado a ministrar           |
-| `status`     | Boolean                                       | Sim                      | `true`               | Indica se o professor está ativo (`true`) ou inativo (`false`)              |
-| `createdAt`  | Date                                          | Sim                      | Data atual           | Data de criação do registro (automático pelo `timestamps: true`)            |
-| `updatedAt`  | Date                                          | Sim                      | Data atual           | Data da última atualização do registro (automático pelo `timestamps: true`) |
+| Campo         | Tipo de Dado                                  | Obrigatório    | Valor Padrão        | Descrição                                                                   |
+| ------------- | --------------------------------------------- | -------------- | ------------------- | --------------------------------------------------------------------------- |
+| `_id`         | ObjectId                                      | Sim            | Gerado pelo MongoDB | Identificador único do professor                                            |
+| `name`        | String                                        | Sim            | —                   | Nome completo do professor                                                  |
+| `cpf`         | String (11 caracteres, único)                 | Sim            | —                   | CPF do professor, deve ser único e ter exatamente 11 caracteres             |
+| `email`       | String (único, formato email válido)          | Sim            | —                   | Endereço de e-mail único e válido                                           |
+| `description` | String                                        | Sim            | —                   | Breve descrição sobre o professor                                           |
+| `image`       | Buffer                                        | Sim            | —                   | Arquivo da imagem do professor armazenado em formato binário (Buffer)       |
+| `hourPrice`   | Number                                        | Sim            | —                   | Valor cobrado por hora/aula                                                 |
+| `modalities`  | Array de ObjectId (referência a `Modalities`) | Sim (mínimo 1) | —                   | Lista das modalidades que o professor está habilitado a ministrar           |
+| `status`      | Boolean                                       | Sim            | `true`              | Indica se o professor está ativo (`true`) ou inativo (`false`)              |
+| `createdAt`   | Date                                          | Sim            | Data atual          | Data de criação do registro (automático pelo `timestamps: true`)            |
+| `updatedAt`   | Date                                          | Sim            | Data atual          | Data da última atualização do registro (automático pelo `timestamps: true`) |
+
 
 ## Relacionamentos
 
@@ -42,6 +44,7 @@ Armazena os dados dos professores da academia, incluindo informações pessoais,
   "name": "Carlos Eduardo",
   "cpf": "12345678901",
   "email": "carlos.eduardo@example.com",
+  "description": "Faixa Preta 3º Dan. Com mais de 15 anos de experiência no judô...",
   "image": "https://exemplo.com/fotos/carlos.jpg",
   "hourPrice": 70.0,
   "modalities": [
