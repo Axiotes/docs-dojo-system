@@ -16,3 +16,4 @@ Diagrama da Visão Geral
 
 ## [Partes Interessadas](../about/stakeholders/)
 ## [Requisitos](../about/requirements/)
+## [Guia de Execução do projeto](../about/execution-guide/)
