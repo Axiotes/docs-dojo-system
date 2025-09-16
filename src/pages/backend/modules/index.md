@@ -13,3 +13,6 @@ O módulo `plans` é responsável pelo gerenciamento dos planos oferecidos pela 
 
 ## [`teachers`](../../backend/modules/teachers/)
 O módulo `teachers` é responsável pelo gerenciamento dos professores da academia. Ele concentra as funcionalidades de criação, consulta, atualização e inativação de professores, possibilitando que administradores tenham controle sobre o corpo docente. Além disso, o módulo serve como base para a organização de aulas e turmas, garantindo uma gestão eficiente da equipe de professores dentro do sistema.
+
+## [`classes`](../../backend/modules/classes/)
+O módulo `classes` é responsável pelo gerenciamento das turmas da academia. Ele concentra as funcionalidades de criação, consulta, atualização e inativação de turmas, permitindo que a equipe administrativa organize de forma eficiente as aulas oferecidas.
