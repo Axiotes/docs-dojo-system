@@ -84,7 +84,8 @@ const config = {
         title: 'Dojo System',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/light-logo.png',
+          srcDark: 'img/dark-logo.png'
         },
         items: [
           {
