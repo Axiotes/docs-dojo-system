@@ -14,6 +14,9 @@ Este endpoint permite que **administradores autenticados** com `role` **admin** 
 ## [Buscar 5 principais professores](../../../backend/modules/teachers/top-5-teachers/)
 Este endpoint retorna os **5 professores** que estão presentes no maior número de turmas cadastradas no sistema.
 
+## [Gerar relatório dos professores](../../../backend/modules/teachers/teachers-report/)
+Este endpoint permite que **administradores autenticados** com `role` **admin** gerem um relatório de todos os professores cadastrados no sistema, exportando os dados em **PDF**.
+
 ## [Atualizar professor](../../../backend/modules/teachers/update-teacher/)
 Este endpoint permite que **administradores autenticados** com `role` **admin** atualizem parcialmente ou totalmente os dados de um professor já cadastrado na academia. O sistema realiza validações de CPF, e-mail, modalidades ativas e compatibilidade com turmas em andamento.
 
