@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Controle Total da Academia',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Organização de alunos, professores, modalidades e horários de forma simples e eficiente, garantindo que sua academia funcione sem complicações.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Portal para Alunos',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Permite que alunos visualizem planos, modalidades e horários, e se inscrevam facilmente nas aulas de sua preferência.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Fácil de Usar',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        O sistema foi desenvolvido para permitir que alunos, visitantes e administradores utilizem todas as funcionalidades de forma intuitiva e rápida, sem complicações.
       </>
     ),
   },
